@@ -1,0 +1,45 @@
+   /*bloco de regras ;"
+    /* <seletor css> {; */
+    /* conjunto de regras;  */
+    /* chave: valor;  */
+    /* na ultima regra o ; é opcional.} */
+
+    /* seletor de elemento*/
+       
+       
+       p {
+            color: blue;
+            text-align: center;
+        }
+
+     
+    /* seletor de ID*/
+
+    #meuParagrafo {
+        color:lime;
+    }
+    /* seletor de Classes*/
+
+    .destaque {
+        color:darkorange;
+    }
+    img {
+            width: 50%
+            height: 50%;
+        }
+ li {
+float:left;
+width: 120;
+padding-left: 10px
+
+ }
+        
+     [class^="btn"]{
+border: 10px solid greenyellow  }
+[class*="primary"] { border : 10px solid darkred}
+
+    [type="button"] {
+
+       color:blue;
+    }
+    
